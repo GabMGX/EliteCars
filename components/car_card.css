@@ -1,0 +1,11 @@
+:host {
+  display: block;
+  background-color: black;
+  width: 100px;
+  height: 70px;
+  border: 2px solid red;
+}
+
+h1 {
+    color: white;
+}
