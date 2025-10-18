@@ -1,8 +1,8 @@
-\# Elite Car
+# Elite Car
 
 
 
-\## Etapas para configurar o servidor
+## Etapas para configurar o servidor
 
 
 
@@ -10,7 +10,7 @@ Na pasta do projeto, crie e ative um ambiente virtual, depois instale as depend√
 
 
 
-\### Windows
+### Windows
 
 
 
