@@ -11,3 +11,5 @@ venv/
 # IDEs
 .vscode/
 .idea/
+.vs/
+vs/
