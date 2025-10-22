@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="144" viewBox="0 0 310 154">
+  <defs>
+  <mask id="wheelHole">
+    <rect width="100%" height="100%" fill="white" />
+    <ellipse transform="rotate(10) scale(1,-1)" cx="187" cy="-89" rx="16" ry="25" fill="black" />
+  </mask>
+</defs>
+
+  <g id="layer_base" transform="scale(1,-1) translate(0,-154)">
+    <path d="M5,36 C-15,88 42,104 77,104 C112,104 140,102 175,100 C75,82 72,60 35,64 C27,65 20,65 6,72 C2,65 2,44 11,32 C26,24 102,13 127,20 C115,55 88,38 67,47 C95,49 132,51 143,74 C128,71 128,71 112,69 C137,86 161,94 184,97 C204,126 214,132 232,126 C222,127 214,127 194,98 C218,100 253,110 275,111 C260,122 253,128 241,131 C216,140 160,137 142,134 C124,131 104,117 91,108 C88,108 85,108 82,108 C103,122 121,138 146,142 C170,147 228,146 253,134 C276,123 299,108 300,94 C294,107 275,102 262,99 C250,96 208,86 182,80 C166,89 131,59 138,13 C114,9 93,9 56,15 C19,20 -3,31 5,36 Z"
+          fill="#000000" stroke="none"/>
+  </g>
+
+  <g id="layer_base" transform="scale(1,-1) translate(0,-154)">
+    <path d="M284,39 C274,29 267,51 272,72 C276,91 292,97 297,77 C296,74 296,74 295,71 C294,79 290,85 287,84 C280,84 274,70 274,61 C274,52 274,37 284,39 Z"
+          fill="#000000" stroke="none"/>
+  </g>
+
+  <g id="layer_base2" transform="scale(1,-1) translate(0,-154)">
+    <path d="M257,49 C238,35 227,36 198,25 C217,40 228,39 257,49 Z" 
+      fill="#000000" stroke="none"/>
+  </g>
+
+  <g id="layer_base3" fill="#000000" stroke="none"  mask="url(#wheelHole)">
+    <ellipse transform="rotate(10) scale(1,-1)" rx="22" ry="34" cx="187" cy="-89"/>
+  </g>
+</svg>

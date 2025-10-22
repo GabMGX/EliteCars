@@ -1,0 +1,51 @@
+:host {
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+img {
+    height: 30px;
+    flex-shrink: 0;
+}
+
+/* INPUT INICIALMENTE ESCONDIDO */
+input {
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: transparent;
+    font-family: "Lexend", sans-serif;
+    color: black;
+    flex-grow: 1;
+
+    transition: 
+        width 0.4s ease,
+        opacity 0.4s ease,
+        padding 0.4s ease;
+    
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+:host(:hover) input,
+input:focus {
+    width: 200px;
+    opacity: 1;
+    padding-inline: 10px;
+    background-color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: black;
+}

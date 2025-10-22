@@ -1,0 +1,29 @@
+:host {
+    background-color: #eb9633;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+img {
+    margin-left: 50px;
+    height: 80%;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    font-family: "Lexend", sans-serif;
+}
+
+search-bar {
+    margin-right: 50px;
+}   
