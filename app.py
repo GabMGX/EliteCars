@@ -39,10 +39,10 @@ def components():
         
         html = css = ''
         if html_path:
-            with open(os.path.join(app.components_folder, html_path)) as f:
+            with open(os.path.join(app.components_folder, html_path), encoding='utf-8') as f:
                 html = f.read()
         if css_path:
-            with open(os.path.join(app.components_folder, css_path)) as f:
+            with open(os.path.join(app.components_folder, css_path), encoding='utf-8') as f:
                 css = f.read()
         
         # Substitui o conteúdo entre os crases de this.shadowRoot.innerHTML
@@ -52,7 +52,7 @@ def components():
 
         final += js + '\n\n'
 
-    return Response(final, mimetype='application/javascript')
+    return Response(final, mimetype='application/javascript; charset=utf-8')
 
 
 @app.route('/', defaults={'path': ''})
