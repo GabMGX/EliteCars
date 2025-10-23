@@ -13,3 +13,6 @@ venv/
 .idea/
 .vs/
 vs/
+
+# Bin files
+*.webp
