@@ -3,15 +3,16 @@
         "nome": "Audi A7",
         "preco": 120254,
         "marca": "Audi",
+        "desconto": 10000,
         "descricao": "O Audi A7 é um sedã de luxo com design esportivo e tecnologia avançada. Combina desempenho potente, conforto refinado e boa praticidade, sendo ideal para quem busca estilo e sofisticação no dia a dia.",
-        "imagens": "static/images/cars/audiA7"
+        "imagens": "/static/images/cars/audiA7"
     },
     {
         "nome": "BMW Série 5",
         "preco": 430950,
         "marca": "BMW",
         "descricao": "O BMW Série 5 é um sedã executivo que equilibra perfeitamente esportividade e conforto. Com motores potentes e interior luxuoso, oferece uma experiência de condução refinada e tecnológica.",
-        "imagens": "static/images/cars/bmwM5"
+        "imagens": "/static/images/cars/bmwM5"
     },
     {
         "nome": "Chevrolet Camaro",
@@ -19,28 +20,28 @@
         "marca": "Chevrolet",
         "desconto": 90000,
         "descricao": "O Chevrolet Camaro é um ícone entre os esportivos, conhecido por seu visual agressivo e ronco marcante. Oferece desempenho impressionante e tecnologias que elevam a experiência de dirigir.",
-        "imagens": "static/images/cars/ChevroletCamaro"
+        "imagens": "/static/images/cars/ChevroletCamaro"
     },
     {
         "nome": "Dodge Ram",
         "preco": 679990,
         "marca": "Ram Trucks",
         "descricao": "A Dodge Ram é uma picape robusta e poderosa, feita para quem precisa de força e conforto. Seu interior luxuoso e a alta capacidade de reboque tornam-na uma das melhores em sua categoria.",
-        "imagens": "static/images/cars/DodgeRam"
+        "imagens": "/static/images/cars/DodgeRam"
     },
     {
         "nome": "Ferrari FXX K",
         "preco": 12233405,
         "marca": "Ferrari",
         "descricao": "A Ferrari FXX K é um hipercarro desenvolvido para pistas, com desempenho extremo e engenharia de ponta. Seu motor V12 híbrido entrega potência e emoção em níveis incomparáveis.",
-        "imagens": "static/images/cars/FerrariFXXK"
+        "imagens": "/static/images/cars/FerrariFXXK"
     },
     {
         "nome": "Fiat Progetto 363",
         "preco": 422567,
         "marca": "Fiat",
         "descricao": "O Fiat Progetto 363 representa a nova geração de SUVs compactos da Fiat. Combina design moderno, bom espaço interno e tecnologias que o tornam ideal para o uso urbano e familiar.",
-        "imagens": "static/images/cars/FiatProggeto363"
+        "imagens": "/static/images/cars/FiatProggeto363"
     },
     {
         "nome": "Ford Ranger Raptor",
@@ -48,21 +49,21 @@
         "marca": "Ford",
         "desconto": 23440,
         "descricao": "A Ford Ranger Raptor é uma picape esportiva projetada para aventuras off-road. Possui suspensão reforçada, motor potente e design imponente, pronta para qualquer terreno.",
-        "imagens": "static/images/cars/FordRangerRaptor"
+        "imagens": "/static/images/cars/FordRangerRaptor"
     },
     {
         "nome": "Toyota Corolla 2025",
         "preco": 167590,
         "marca": "Toyota",
         "descricao": "O Toyota Corolla 2025 continua a tradição de confiabilidade e eficiência da marca, com visual atualizado, ótimo consumo e tecnologias de segurança avançadas.",
-        "imagens": "static/images/cars/ToyotaCorolla"
+        "imagens": "/static/images/cars/ToyotaCorolla"
     },
     {
         "nome": "Toyota Hilux",
         "preco": 223490,
         "marca": "Toyota",
         "descricao": "A Toyota Hilux é uma das picapes mais respeitadas do mundo, conhecida por sua durabilidade e força. Ideal tanto para o trabalho pesado quanto para o lazer.",
-        "imagens": "static/images/cars/ToyotaHilux"
+        "imagens": "/static/images/cars/ToyotaHilux"
     },
     {
         "nome": "Mercedes Benz GLE 450",
@@ -70,28 +71,28 @@
         "marca": "Mercedes",
         "desconto": 20000,
         "descricao": "O Mercedes-Benz GLE 450 é um SUV de luxo que combina desempenho refinado e conforto premium. Seu interior sofisticado e tecnologias de ponta definem o padrão do segmento.",
-        "imagens": "static/images/cars/MercedesBenzGle450"
+        "imagens": "/static/images/cars/MercedesBenzGle450"
     },
     {
         "nome": "Jeep Wrangler 4x4",
         "preco": 499990,
         "marca": "Jeep",
         "descricao": "O Jeep Wrangler 4x4 é o símbolo máximo da aventura. Com tração integral e design clássico, é feito para enfrentar trilhas difíceis sem abrir mão do conforto moderno.",
-        "imagens": "static/images/cars/JeepWrangler"
+        "imagens": "/static/images/cars/JeepWrangler"
     },
     {
         "nome": "Nissan Armada",
         "preco": 520345,
         "marca": "Nissan",
         "descricao": "O Nissan Armada é um SUV grande e imponente, projetado para oferecer luxo, espaço e desempenho. Seu motor V8 garante força, enquanto o interior acomoda a família com conforto.",
-        "imagens": "static/images/cars/NissanArmada"
+        "imagens": "/static/images/cars/NissanArmada"
     },
     {
         "nome": "BYD Dolphin",
         "preco": 118800,
         "marca": "BYD Auto",
         "descricao": "O BYD Dolphin é um hatch elétrico moderno, com design futurista e ótimo custo-benefício. Oferece autonomia eficiente e tecnologias sustentáveis voltadas para o dia a dia urbano.",
-        "imagens": "static/images/cars/BydDolphin"
+        "imagens": "/static/images/cars/BydDolphin"
     },
     {
         "nome": "Toyota SW4",
@@ -99,104 +100,104 @@
         "marca": "Toyota",
         "desconto": 46300,
         "descricao": "O Toyota SW4 é um SUV robusto baseado na plataforma da Hilux. Une força, conforto e tecnologia, sendo ideal tanto para viagens quanto para o uso diário.",
-        "imagens": "static/images/cars/ToyotaSW4"
+        "imagens": "/static/images/cars/ToyotaSW4"
     },
     {
         "nome": "Volkswagen Polo",
         "preco": 133490,
         "marca": "Volkswagen",
         "descricao": "O Volkswagen Polo é um hatch moderno e eficiente, com ótimo equilíbrio entre desempenho, conforto e economia. Equipado com tecnologia embarcada e acabamento refinado, é ideal para quem busca um carro urbano versátil e seguro.",
-        "imagens": "static/images/cars/VolkswagenPolo"
+        "imagens": "/static/images/cars/VolkswagenPolo"
     },
     {
         "nome": "Chevrolet Onix",
         "preco": 106790,
         "marca": "Chevrolet",
         "descricao": "O Chevrolet Onix combina design atraente, conforto e conectividade. Com motor eficiente e central multimídia intuitiva, é um dos compactos mais vendidos do Brasil, perfeito para o uso diário com economia e estilo.",
-        "imagens": "static/images/cars/ChevroletOnix"
+        "imagens": "/static/images/cars/ChevroletOnix"
     },
     {
         "nome": "Hyundai HB20",
         "preco": 95790,
         "marca": "Hyundai",
         "descricao": "O Hyundai HB20 se destaca pelo design arrojado e pela tecnologia embarcada. Oferece ótimo desempenho com baixo consumo e conforto para toda a família, sendo uma excelente opção entre os hatches compactos.",
-        "imagens": "static/images/cars/HyundaiHB20"
+        "imagens": "/static/images/cars/HyundaiHB20"
     },
     {
         "nome": "Renault Kwid",
         "preco": 78690,
         "marca": "Renault",
         "descricao": "O Renault Kwid é um subcompacto econômico e ágil, ideal para o trânsito urbano. Oferece boa altura do solo, baixo custo de manutenção e consumo exemplar, sendo uma escolha prática e acessível para o dia a dia.",
-        "imagens": "static/images/cars/RenaultKwid"
+        "imagens": "/static/images/cars/RenaultKwid"
     },
     {
         "nome": "Peugeot 208",
         "preco": 108990,
         "marca": "Peugeot",
         "descricao": "O Peugeot 208 impressiona pelo design sofisticado e interior de alta qualidade. Com motor eficiente e tecnologia de ponta, oferece uma experiência de condução moderna e prazerosa, com excelente custo-benefício.",
-        "imagens": "static/images/cars/Peugeot208"
+        "imagens": "/static/images/cars/Peugeot208"
     },
     {
         "nome": "Honda Fit",
         "preco": 75300,
         "marca": "Honda",
         "descricao": "O Honda Fit é conhecido por sua versatilidade e confiabilidade. O interior espaçoso e o sistema de bancos moduláveis garantem praticidade, enquanto o consumo eficiente o torna ideal para quem valoriza economia e conforto.",
-        "imagens": "static/images/cars/HondaFit"
+        "imagens": "/static/images/cars/HondaFit"
     },
     {
         "nome": "Porsche 911 Carrera",
         "preco": 1467000,
         "marca": "Porsche",
         "descricao": "O Porsche 911 Carrera é um ícone entre os esportivos. Seu motor traseiro e tração precisa proporcionam uma experiência de direção incomparável, combinando desempenho extremo com conforto e sofisticação alemã.",
-        "imagens": "static/images/cars/Porsche911Carrera"
+        "imagens": "/static/images/cars/Porsche911Carrera"
     },
     {
         "nome": "Lamborghini Huracán",
         "preco": 4632677,
         "marca": "Lamborghini",
         "descricao": "O Lamborghini Huracán representa a essência dos superesportivos italianos: design agressivo, motor V10 de alto desempenho e som inconfundível. Feito para quem busca emoção pura e exclusividade em cada detalhe.",
-        "imagens": "static/images/cars/LamborghiniHuracan"
+        "imagens": "/static/images/cars/LamborghiniHuracan"
     },
     {
         "nome": "McLaren 720S",
         "preco": 2803820,
         "marca": "McLaren",
         "descricao": "O McLaren 720S combina engenharia britânica e tecnologia de Fórmula 1. Seu motor V8 biturbo entrega aceleração brutal, enquanto o design aerodinâmico garante desempenho e elegância incomparáveis.",
-        "imagens": "static/images/cars/McLaren720S"
+        "imagens": "/static/images/cars/McLaren720S"
     },
     {
         "nome": "Aston Martin DB12",
         "preco": 3531224,
         "marca": "Aston Martin",
         "descricao": "O Aston Martin DB12 redefine o conceito de grand tourer. Luxuoso e potente, combina um motor V8 biturbo com acabamento artesanal, entregando uma experiência de condução elegante e emocionante.",
-        "imagens": "static/images/cars/AstonMartinDB12"
+        "imagens": "/static/images/cars/AstonMartinDB12"
     },
     {
         "nome": "Mercedes-AMG GT 63 S",
         "preco": 1697900,
         "marca": "Mercedes-Benz",
         "descricao": "O Mercedes-AMG GT 63 S é um cupê de quatro portas que une luxo e brutalidade. Seu motor V8 biturbo de 639 cv oferece desempenho impressionante com o conforto e tecnologia típicos da Mercedes-Benz.",
-        "imagens": "static/images/cars/MercedesAMGGT63S"
+        "imagens": "/static/images/cars/MercedesAMGGT63S"
     },
     {
         "nome": "Ford F-150",
         "preco": 580000,
         "marca": "Ford",
         "descricao": "A Ford F-150 é uma picape lendária, sinônimo de força e durabilidade. Equipada com tecnologia moderna e acabamento premium, oferece desempenho excepcional tanto no trabalho quanto na estrada.",
-        "imagens": "static/images/cars/FordF150"
+        "imagens": "/static/images/cars/FordF150"
     },
     {
         "nome": "BMW i4",
         "preco": 675950,
         "marca": "BMW",
         "descricao": "O BMW i4 é o sedã elétrico que combina desempenho esportivo e sustentabilidade. Com design elegante e autonomia superior, entrega a experiência de direção típica da BMW em uma versão 100% elétrica.",
-        "imagens": "static/images/cars/Bmwi4"
+        "imagens": "/static/images/cars/Bmwi4"
     },
     {
         "nome": "Nissan Leaf 2026",
         "preco": 259000,
         "marca": "Nissan",
         "descricao": "O Nissan Leaf 2026 é um dos elétricos mais populares do mundo. Silencioso, eficiente e tecnológico, oferece excelente autonomia e conforto, sendo uma opção sustentável sem abrir mão da praticidade.",
-        "imagens": "static/images/cars/NissanLeaf2026"
+        "imagens": "/static/images/cars/NissanLeaf2026"
     }
 ]

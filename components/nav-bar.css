@@ -5,6 +5,8 @@
     align-items: center;
     height: 100px;
     justify-content: space-between;
+
+    position: relative; 
 }
 
 img {
@@ -15,6 +17,11 @@ img {
 nav {
     display: flex;
     gap: 50px;
+
+    /* Centraliza com a posição absoluta */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 a {
@@ -22,8 +29,21 @@ a {
     text-decoration: none;
     color: black;
     font-family: "Lexend", sans-serif;
+
+    /* Define as propriedades da animação */
+    transition: transform 0.3s ease, color 0.3s ease;
 }
+
+/* QUANDO O MOUSE ESTIVER EM CIMA DO BOTÃO */
+a:hover {
+    /* Aumenta o tamanho do elemento em 10% */
+    transform: scale(1.1);
+
+    /* Muda a cor do texto para branco */
+    color: white;
+}
+
 
 search-bar {
     margin-right: 50px;
-}   
+}

@@ -1,0 +1,7 @@
+.cards-container {
+  display: flex; /* Ativa o Flexbox */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  gap: 20px; /* Adiciona um espaço entre os cards */
+  justify-content: center; /* Centraliza os cards no contêiner */
+  padding: 20px; /* Adiciona um espaçamento interno no contêiner */
+}
